@@ -1,25 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 
-::root{
---strong-cyan: hsl(171, 66%, 44%);
---light-blue:hsl(233, 100%, 69%);
---dgblue: hsl(210, 10%, 33%);
---grayishblue:hsl(201, 11%, 66%);
+:root {
+  --strong-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --dgblue: hsl(210, 10%, 33%);
+  --grayishblue: hsl(201, 11%, 66%);
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-size: 18px;
-    /* border: 1px solid red; */
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
 }
 
-header{
-    background-color: aquamarine;
+header {
+  background-image: url(images/bg-header-desktop.png);
+  font-size: 1em;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background-repeat: no-repeat;
 }
 
+.herologo {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.heroText {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.heroText > p {
+    margin: auto;
+    width: 80%;
+    margin-top: 0.5em;
+    line-height: 1em;
+}
+
+h1 {
+  font-size: vmin;
+}
+
+.btndiv {
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  gap: 1.15rem;
+}
+
+.download {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 0.7em 1.25em;
+    border-radius: 50px;
+    box-shadow: 0px -11px 18px -14px rgba(0,0,0,0.4) inset;
+}
+
+.iOS {
+    background-color: var(--strong-cyan);
+}
+
+.mac {
+    background-color: var(--light-blue);
+}
+
+.h2div {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
