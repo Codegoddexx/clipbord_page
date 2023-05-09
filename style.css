@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 
-:root {
-  --strong-cyan: hsl(171, 66%, 44%);
-  --light-blue: hsl(233, 100%, 69%);
-  --dgblue: hsl(210, 10%, 33%);
-  --grayishblue: hsl(201, 11%, 66%);
+::root{
+--strong-cyan: hsl(171, 66%, 44%);
+--light-blue:hsl(233, 100%, 69%);
+--dgblue: hsl(210, 10%, 33%);
+--grayishblue:hsl(201, 11%, 66%);
 }
 
 * {
@@ -73,10 +73,6 @@ h1 {
 
 .iOS {
     background-color: var(--strong-cyan);
-}
-
-.mac {
-    background-color: var(--light-blue);
 }
 
 .h2div {
