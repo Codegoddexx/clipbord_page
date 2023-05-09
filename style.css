@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 
-::root{
+:root{
 --strong-cyan: hsl(171, 66%, 44%);
 --light-blue:hsl(233, 100%, 69%);
 --dgblue: hsl(210, 10%, 33%);
@@ -56,7 +56,7 @@ header {
     width: 70%;
 }
 h1 {
-  font-size: vmin;
+  font-size: 6vmin;
 }
 
 .btndiv {
@@ -67,9 +67,7 @@ h1 {
   gap: 1.15rem;
 }
 
-footer {
-    /* background-color: black; */
-    background-color: var(--grayishblue);
+
 .download {
     text-decoration: none;
     color: white;
@@ -80,15 +78,28 @@ footer {
     box-shadow: 0px -11px 18px -14px rgba(0,0,0,0.4) inset;
 }
 
+.iOS {
+    background-color: var(--strong-cyan);
+}
+
+.mac {
+    background-color: var(--light-blue);
+}
+
+.h2div {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+footer {
+    /* background-color: black; */
+    background-color: var(--grayishblue);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2em 8em 2em 9em;
 }
-.iOS {
-    background-color: var(--strong-cyan);
-}
-
 
 .footerlinks{
     display: flex;
@@ -101,17 +112,14 @@ footer {
     font-weight: 500;
 }
 
-
 .footerlinks li {
     list-style-type: none;
 }
-
 
 .footerlinks li a{
     text-decoration: none;
     color:var(--dgblue) ;
 }
-
 
 .smicons {
 /* background-color: yellow; */
@@ -125,9 +133,4 @@ justify-content: space-between;
     grid-template-columns: repeat(3, auto);
     column-gap: 4.5rem;
     line-height: 2em;
-}
-.h2div {
-    text-align: center;
-    width: 60%;
-    margin: auto;
 }
